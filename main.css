@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('/women-see-mountain.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* if bg img is more dark/black, to make blur effect more spread, not clump on the top, left, right or bottom
+    top: -30px;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    */
+    z-index: -1; /*to make bg image, place under the Loading Text*/
+    filter: blur(0px); /*make bg img blurry. the higher the pixel, the more blur*/
+}
+
+.load-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
