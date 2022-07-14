@@ -1,6 +1,6 @@
 # Loading Page
 
-Day 1 : [Loading Page](ariesan.github.io/loading-page/)
+Day 1 : [Loading Page](https://ariesan.github.io/loading-page/)
 
 Until today, July 13, 2022. I still couldn't grasp how javascript work. So, i made a decision to make it familiar for me, by doing simple thing with Javascript.
 
