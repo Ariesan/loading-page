@@ -15,7 +15,7 @@ body {
 }
 
 .bg {
-    background: url('/women-see-mountain.png') no-repeat center center/cover;
+    background: url('women-see-mountain.png') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
